@@ -9,9 +9,9 @@ RIOLE Remy - CALLET Elliot
 
 L'objectif est de prédire le type d'un plat à partir d'informations telles que la recette, le titre, ou encore les ingrédients. Il s'agit d'une tâche de classification. Voici un exemple de donnée avec lesquels nous travaillons : 
 
-| doc_id | titre                   | type             |    difficulte  |  cout    |  ingredients |  recette |
-|- |-------------------------|--------------------------------|---    | ---   | --- | --- |
-recette_217204.xml| Crêpes au canard laqué  | Entrée    | Moyennement difficile| Moyen | - 90 g de farine - 45 g de maïzena [...] - 9 cl de sauce hoisin | recette : Couper finement le blanc [...] une salade verte. |
+| doc_id             | titre                  | type   | difficulte            | cout  | ingredients                                                     | recette                                                    |
+|--------------------|------------------------|--------|-----------------------|-------|-----------------------------------------------------------------|------------------------------------------------------------|
+| recette_217204.xml | Crêpes au canard laqué | Entrée | Moyennement difficile | Moyen | - 90 g de farine - 45 g de maïzena [...] - 9 cl de sauce hoisin | recette : Couper finement le blanc [...] une salade verte. |
 
 
 ## Statistiques corpus
@@ -40,12 +40,12 @@ Répartition des étiquettes dans chacun des sous-ensemble
 
 ## Résultats
 
-| Run | f1 Score |
-| -------- | --|
-baseline |   |
-| METH 2   |   |
-| METH 3   |   |
-| METH 4   |   |
+| Run      | f1 Score |
+|----------|----------|
+| baseline |          |
+| METH 2   |          |
+| METH 3   |          |
+| METH 4   |          |
 
 
 
