@@ -107,7 +107,3 @@ Cela s'explique sûrement par le fait que les entrées sont souvent caractéris�
 
 Grâces à ces matrices de confusion, on voit clairement que les modèles, même moins bons, sont très performants sur la classe "dessert", et que les erreurs arrivent dans la classification des entrées et plats principaux. 
 On voit notamment que la régression logistique à plus tendance à prédire des plats principaux, là ou le SVC à un légèrement plus de prédictions de desserts. On voit finalement sur la matrice de confusion du Gaussian Naive Bayes prédit énormément de plat principaux comme des entrées.
-
-
-
-* Combien de documents ont un score de 0 ? de 0.5 ? de 1 ? (Courbe ROC)
