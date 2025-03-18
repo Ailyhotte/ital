@@ -7,31 +7,21 @@ RIOLE Remy - CALLET Elliot
 
 ## Description de la tâche
 
+L'objectif est de prédire le type d'un plat à partir d'informations telles que la recette, le titre, ou encore les ingrédients. Il s'agit d'une tâche de classification. Voici un exemple de donnée avec lesquels nous travaillons : 
 
-
-	L'objectif est de prédire le type d'un plat à partir d'informations telles que la recette, le titre, ou encore les ingrédients. Il s'agit d'une tâche de classification. Voici un exemple de donnée avec lesquels nous travaillons : 
- doc_id : recette_217204.xml
- titre : Crêpes au canard laqué
- type : Entrée
- difficulte : Moyennement difficile
- cout : Moyen
- ingredients : - 90 g de farine - 45 g de maïzena [...] - 9 cl de sauce hoisin
- recette : Couper finement le blanc [...] une salade verte.
-
+| doc_id | titre                   | type             |    difficulte  |  cout    |  ingredients |  recette |
+|- |-------------------------|--------------------------------|---    | ---   | --- | --- |
+recette_217204.xml| Crêpes au canard laqué  | Entrée    | Moyennement difficile| Moyen | - 90 g de farine - 45 g de maïzena [...] - 9 cl de sauce hoisin | recette : Couper finement le blanc [...] une salade verte. |
 
 
 ## Statistiques corpus
 
+Nombre de document de train/dev/test
 
-
-	Nombre de document de train/dev/test
-
-	Répartition des étiquettes dans chacun des sous-ensemble
-
+Répartition des étiquettes dans chacun des sous-ensemble
 
 
 ## Méthodes proposées
-
 
 
 ### Run1: baseline (méthode de référence)
@@ -50,19 +40,12 @@ RIOLE Remy - CALLET Elliot
 
 ## Résultats
 
-
-
-| Run      | f1 Score |
-
-| -------- | --------:|
-
-| baseline |  15,2 |
-
-| METH 2   |   6,8 |
-
-| METH 3   |  50,8 |
-
-| METH 4   |  70,2 |
+| Run | f1 Score |
+| -------- | --|
+baseline |   |
+| METH 2   |   |
+| METH 3   |   |
+| METH 4   |   |
 
 
 
